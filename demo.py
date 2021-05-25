@@ -6,6 +6,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 from tensorflow.keras.models import Sequential, save_model,load_model
 import streamlit as st
+import matplotlib.pyplot as plt
 
 st.title("Leaf Disease Prediction")
 st.write(" Image classification web app to predict Leaf Disease")
